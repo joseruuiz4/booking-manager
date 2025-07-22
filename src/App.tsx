@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useSearchParams } from "react-router";
 import "./styles.css";
-import Login from "./components/Login";
+import AuthBox from "./components/AuthBox";
+import InfoMessage from "./components/InfoMessage";
 
 function App() {
   const [params, setParams] = useSearchParams();
@@ -16,7 +17,7 @@ function App() {
 
   return (
     <>
-      <Login></Login>
+      <AuthBox></AuthBox>
     </>
   );
 }
