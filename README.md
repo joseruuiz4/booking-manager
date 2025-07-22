@@ -47,7 +47,7 @@ Es un proyecto personal con arquitectura preparada para uso real.
 
 ## 🛠️ Admin
 
-    Acceso a funcionalidades ampliadas 
+    Acceso a funcionalidades ampliadas
 
 # 🧪 Estado del proyecto
 
@@ -73,7 +73,6 @@ npm install
 
 npm run dev
 
-
 ## Backend
 
 git clone https://github.com/joseruuiz4/booking-manager-back.git
@@ -85,6 +84,3 @@ npm install
 npm run dev
 
     Asegúrate de tener un archivo .env con tus claves (Mongo URI, JWT_SECRET, Google OAuth, etc).
-
-
-
