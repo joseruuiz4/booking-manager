@@ -1,9 +1,11 @@
-📅 Booking Manager
+# 📅 Booking Manager
 
 Booking Manager es una aplicación fullstack para la gestión de citas entre usuarios y negocios. Permite a clientes reservar, modificar y puntuar sus citas, mientras que los propietarios de tiendas pueden administrar su disponibilidad y servicios.
 Es un proyecto personal con arquitectura preparada para uso real.
-🚀 Tecnologías
-Backend
+
+# 🚀 Tecnologías
+
+## Backend
 
     Node.js
 
@@ -13,14 +15,15 @@ Backend
 
     Passport.js (JWT + Google OAuth)
 
-Frontend
+## Frontend
 
     React
 
     TailwindCSS
 
-🧑‍💼 Roles y funcionalidades
-🔑 Autenticación
+# 🧑‍💼 Roles y funcionalidades
+
+## 🔑 Autenticación
 
     Login clásico con email/contraseña
 
@@ -30,23 +33,23 @@ Frontend
 
     Gestión de roles (cliente, owner, admin)
 
-👤 Cliente
+## 👤 Cliente
 
     Crear, editar y borrar reservas
 
     Puntuar las citas tras realizarlas
 
-🏪 Owner (propietario)
+## 🏪 Owner (propietario)
 
     Gestionar los servicios ofrecidos
 
     Modificar el horario disponible
 
-🛠️ Admin
+## 🛠️ Admin
 
     Acceso a funcionalidades ampliadas 
 
-🧪 Estado del proyecto
+# 🧪 Estado del proyecto
 
 Backend funcional https://github.com/joseruuiz4/booking-manager-back
 
@@ -58,20 +61,27 @@ Frontend integrado
 
     Despliegue pendiente (posiblemente en Vercel/Render)
 
-📦 Instalación local
-Frontend
+# 📦 Instalación local
+
+## Frontend
 
 git clone https://github.com/joseruuiz4/booking-manager.git
+
 cd booking-manager
+
 npm install
+
 npm run dev
 
 
-Backend
+## Backend
 
 git clone https://github.com/joseruuiz4/booking-manager-back.git
+
 cd booking-manager-back
+
 npm install
+
 npm run dev
 
     Asegúrate de tener un archivo .env con tus claves (Mongo URI, JWT_SECRET, Google OAuth, etc).
